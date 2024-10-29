@@ -1,0 +1,32 @@
+1. Setting up a spring bean component
+2. injection
+3. Used in conjunction when to avoid confusion when there's 2 or more beans configured for the same type
+4. Give higher preference to a bean when there's multiple beans of the same type
+5. A method produces a bean to be managed by the spring container. Declared in config class to create spring bean definitions
+6. Automatically create spring beans(spring IoC container),Main sterotype(@Component) which gives:
+   @Service - used to create spring beans at the service layer
+   @Repository - used to create spring beans for the Repositories at the DAO layer
+   @Controller - used to create spring beans at the controller layer
+
+7. By default all beans load up on startup. Load them on demand with @Lazy. Can be used with @Component.
+8. ConfigProperties bind external configs to a strongly typed bean. Can be injected and used like normal.
+9. @Controller makes a java class as a spring mvc controller, it indicates a class serves the role of a controller.
+   This handles incoming HTTP request in a spring mvc web app.
+   Allows auto-detect implementation classes through classpath scanning.
+
+10. @Controller & @ResponseBody are used to develop RESTful web services using Spring mvc.
+    @RestController is a combination of @Controller & @ResponseBody for convenience to create web services with spring mvc 
+    by annotating a java class with @RestController.
+
+11. @RequestMapping is used to map web requests to spring controller methods as well can be applied to the controller class 
+    and handler methods.
+
+12. @GetMapping is used for mapping HTTP Get requests onto specific handler methods while GET HTTP requests gets 1 or more resources.
+13. @PostMapping is used for mapping HTTP POST requests onto specific handler methods while POST HTTP method is used to create resources
+    @RequestBody retrieves the HTTP request body and automatically converts it to java objects.
+
+14. @PutMapping is used for mapping HTTP Put requests onto specific handler methods while Put HTTP method updates the resource.
+15. @DeleteMapping is used for mapping HTTP Delete requests onto specific handler methods while Delete HTTP method Delete the resource.
+   
+    
+    
