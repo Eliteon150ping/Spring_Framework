@@ -1,0 +1,22 @@
+1. Spring Boot Project Architecture between Postman Client and Controller is (get,post,put,delete) also API layer , Servises is where 
+   you store the business logic DAO is (Repository) Persistence with Database My SQL 
+
+2. Setting up video 6 the project structure and getting ready for the start.
+
+3. Creating Database setting up the properties and pom and run (switch to postgres sql rather than My SQL)
+
+4. Creating the filles you will need then you create your employees table with there colums what they need from the code
+
+5.Creating the EmployeeRepository what contain methods what will be preformed in Employee table 
+
+6. Building he information to transfer the data between die server and the client in dto 
+
+7. Builded a POST Rest API for employees
+
+8. Buidling the Get Rest API for employees
+
+9. Building Get All Employees Rest API
+
+10. Building Put/update All Employees Rest API
+
+11. Building Delete All Employees Rest API
