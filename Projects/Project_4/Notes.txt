@@ -1,0 +1,4 @@
+In the blog post, the author demonstrates how to set up a Spring Boot application with a PostgreSQL database using Docker Compose. 
+It walks through creating a Docker Compose file to define two services: one for the Spring Boot application and another for PostgreSQL. 
+The post covers the configuration of environment variables to connect Spring Boot to PostgreSQL and the creation of a basic REST API to handle `CRUD` operations on a `tutorials` table. 
+Finally, it shows how to send requests (like creating or retrieving tutorial entries) to the API to verify that the setup works and the data is correctly stored in PostgreSQL.
